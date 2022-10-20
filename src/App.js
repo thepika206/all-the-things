@@ -61,7 +61,14 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-
+  const naveensThings = [
+    {
+      name: "Apples",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["efficient", "phones", "laptops", "beautiful"],
+    },
+  ]
+  
   return (
     <Routes>
       {/* All the <Route> components should live here */}
