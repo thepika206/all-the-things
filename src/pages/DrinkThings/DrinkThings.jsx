@@ -1,4 +1,4 @@
-import DrinkThings from '../../components/'
+import ThingCard from '../../components/ThingCard/ThingCard'
 import { Link } from 'react-router-dom'
 
 const DrinkThings = (props) => {
@@ -8,7 +8,7 @@ const DrinkThings = (props) => {
       <Link to="/">Home</Link>
 
       {props.things.map((thing, idx) => 
-        <DrinkCard key={idx} thing={thing}/>
+        <ThingCard key={idx} thing={thing}/>
       )}
     </>
   )
