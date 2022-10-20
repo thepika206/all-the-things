@@ -68,6 +68,13 @@ const App = () => {
       attributes: ["efficient", "phones", "laptops", "beautiful"],
     },
   ]
+  const jennsThings = [
+    {
+      name: "Cocktails",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["Mojito", "margarita", "cosmo", "green tea"],
+    },
+  ]
   
   return (
     <Routes>
