@@ -13,5 +13,5 @@ const StyledThings = (props) => {
     </>
   )
 }
- 
+
 export default StyledThings

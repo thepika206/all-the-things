@@ -75,6 +75,15 @@ const App = () => {
       attributes: ["yellow", "cute",],
     },
   ]
+
+
+  const chrisThings = [
+    {
+      name: "Music",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["hello friend", "wassaaappp"],
+    },
+  ]
   
   return (
     <Routes>
