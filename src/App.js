@@ -3,6 +3,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
+import CoolestThings from './pages/CoolestThings/CoolestThings'
 
 const App = () => {
   const bensThings = [
@@ -100,6 +101,10 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-coolest-things"
+        element={<CoolestThings things={naveensThings} />}
       />
     </Routes>
   )
