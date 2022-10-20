@@ -68,6 +68,13 @@ const App = () => {
       attributes: ["efficient", "phones", "laptops", "beautiful"],
     },
   ]
+  const patricksThings = [
+    {
+      name: "Pokemon",
+      image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Pok%C3%A9mon_Pikachu_art.png/220px-Pok%C3%A9mon_Pikachu_art.png",  
+      attributes: ["yellow", "cute",],
+    },
+  ]
   
   return (
     <Routes>
