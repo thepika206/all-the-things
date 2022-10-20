@@ -6,6 +6,7 @@ import Landing from './pages/Landing/Landing'
 import CoolestThings from './pages/CoolestThings/CoolestThings'
 import PokemonThings from './pages/PokemonThings/PokemonThings'
 import SemiCoolThings from './pages/SemiCoolThings/SemiCoolThings'
+import DrinkThings from './pages/DrinkThings/DrinkThings'
 
 const App = () => {
   const bensThings = [
@@ -71,6 +72,14 @@ const App = () => {
       attributes: ["efficient", "phones", "laptops", "beautiful"],
     },
   ]
+
+  const chrisThings = [
+    {
+      name: "Music",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["hello friend", "wassaaappp"],
+    },
+  ]
   const patricksThings = [
     {
       name: "Pokemon",
@@ -79,12 +88,11 @@ const App = () => {
     },
   ]
 
-
-  const chrisThings = [
+  const jennsThings = [
     {
-      name: "Music",
+      name: "Cocktails",
       image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
-      attributes: ["hello friend", "wassaaappp"],
+      attributes: ["Mojito", "margarita", "cosmo", "green tea"],
     },
   ]
   
@@ -115,6 +123,14 @@ const App = () => {
       <Route
         path="/semi-cool-things"
         element={<SemiCoolThings things={chrisThings} />}
+      />
+      <Route
+        path="/the-coolest-things"
+        element={<CoolestThings things={naveensThings} />}
+      />
+      <Route
+        path="/the-drink-things"
+        element={<DrinkThings things={jennsThings} />}
       />
     </Routes>
   )
